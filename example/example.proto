@@ -1,0 +1,10 @@
+
+/**************** 这是一个例子 ****************/
+syntax = "proto3";
+
+package example;
+
+message Example {
+  int32 id = 1; // ID，唯一标识
+  string name = 2; // 名字
+}
